@@ -62,20 +62,3 @@ import "../styles/global.css";
 		</main>
 	</body>
 </html>
-
-<style is:inline>
-	body {
-		visibility: hidden;
-		opacity: 0;
-		transition:
-			visibility 0.2s linear,
-			opacity 0.2s linear;
-	}
-</style>
-
-<script is:inline>
-	window.addEventListener("DOMContentLoaded", () => {
-		document.body.style.visibility = "visible";
-		document.body.style.opacity = "1";
-	});
-</script>
