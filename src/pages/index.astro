@@ -10,10 +10,10 @@ import Layout from "../layouts/Layout.astro";
 			<div class="flex flex-row items-center gap-2 md:gap-4">
 				<Image
 					src={me}
-					width="60"
-					height="60"
+					width={me.width}
+					height={me.height}
 					alt="Nicolò D'Addabbo"
-					class="rounded-full my-4"
+					class="rounded-full my-4 w-16 h-16"
 					loading="eager"
 				/>
 				<h1 class="text-3xl sm:text-4xl font-extrabold">
