@@ -1,0 +1,108 @@
+---
+import { Image } from "astro:assets";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout>
+	<article class="pt-2 sm:pt-10">
+		<section class="py-6">
+			<div class="flex flex-row items-center gap-2 md:gap-4">
+				<Image
+					src="/me.jpeg"
+					width="60"
+					height="60"
+					alt="avatar"
+					class="rounded-full my-4"
+					loading="eager"
+				/>
+				<h1 class="text-3xl sm:text-4xl font-extrabold">
+					Nicolò D&apos;Addabbo
+				</h1>
+			</div>
+			<p class="mt-4">Software Engineer, 22. Berlin-based.</p>
+			<p class="mt-4">
+				Currently interning at <a
+					class="link"
+					href="https://tesla.com"
+					target="_blank">Tesla</a
+				> in Berlin.
+			</p>
+			<p class="mt-4">
+				I studied Computer Science and Engineering between <a
+					class="link"
+					target="_blank"
+					href="https://polimi.it">Milan</a
+				>, <a class="link" target="_blank" href="https://www.upc.edu"
+					>Barcelona</a
+				>, and <a
+					class="link"
+					target="_blank"
+					href="https://www.unibo.it">Bologna</a
+				>, and I&apos;ve been building things since high school — from
+				freelance websites to data-driven mobile apps. I care about
+				clean architecture, smart interfaces, and building tech that
+				people actually need.
+			</p>
+			<p class="mt-4">
+				I&apos;ve been a musician, Ultimate Frisbee player, and event
+				organizer.
+			</p>
+			<p class="mt-4">
+				You can find me on <a
+					class="link"
+					target="_blank"
+					href="https://www.linkedin.com/in/nicolodaddabbo/"
+					>LinkedIn</a
+				>, <a
+					class="link"
+					target="_blank"
+					href="https://github.com/nicolodaddabbo/">GitHub</a
+				> or send me an email at <a
+					class="link"
+					target="_blank"
+					href="mailto:nicolodaddabbo@gmail.com"
+					>nicolodaddabbo@gmail.com</a
+				>
+			</p>
+		</section>
+		<section class="py-6">
+			<h2 class="text-2xl font-bold">Projects</h2>
+			<ul class="mt-4 flex list-inside list-disc flex-col gap-y-4">
+				<li>
+					<a
+						class="link"
+						target="_blank"
+						href="https://schedule.paganello.com"
+						>Paganello Schedule</a
+					>: Web app for displaying real-time match schedules for
+					Paganello, the world&apos;s largest Beach Ultimate Frisbee
+					tournament—seeing over 3,000 players and attendees rely on
+					it was a pivotal moment that deepened my passion for
+					building software that solves real-world problems.
+				</li>
+				<li>
+					<a
+						class="link"
+						target="_blank"
+						href="https://github.com/nicolodaddabbo/hykee-ai"
+						>HYKEE AI</a
+					>: A virtual assistant that helps financial analysts
+					interpret Italian company balance sheets, featuring
+					fine-tuned language models and in-context learning
+					strategies.
+				</li>
+				<li>
+					<a
+						class="link"
+						target="_blank"
+						href="https://amslaurea.unibo.it/id/eprint/33714/"
+						>LLMs for Financial Statement Analysis</a
+					>: Conducted as part of the HYKEE AI project, it includes a
+					comparative study between open-source and proprietary LLMs,
+					evaluated through expert-labeled data and a fine-tuned
+					“LLM-as-a-Judge” model.
+				</li>
+			</ul>
+		</section>
+	</article>
+</Layout>
