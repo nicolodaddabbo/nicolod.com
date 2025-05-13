@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://nicolod.com/sitemap.xml
+Sitemap: https://nicolod.com/sitemap-index.xml
