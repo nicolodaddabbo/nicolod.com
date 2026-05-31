@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
 :root {
-    --background: #ffffff;
-    --accent: #f43731;
-    --foreground: #000000;
+    --background: #f4e3d7;
+    --accent: #bf5c38;
+    --foreground: #1c0f0b;
 }
 
 @theme inline {
@@ -33,7 +33,7 @@
 
 @layer components {
     .link {
-        font-weight: bold;
+        font-weight: 500;
         color: var(--accent);
         text-decoration: underline;
         text-decoration-thickness: 1px;

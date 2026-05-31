@@ -16,19 +16,20 @@ import Layout from "../layouts/Layout.astro";
 					class="rounded-full my-4 w-20 h-20"
 					loading="eager"
 				/>
-				<h1 class="text-3xl sm:text-4xl font-extrabold">
+				<h1 class="text-3xl sm:text-4xl font-bold tracking-tight">
 					Nicolò D&apos;Addabbo
 				</h1>
 			</div>
-			<p class="mt-4">Software Engineer, 22. Berlin-based.</p>
-			<p class="mt-4">
-				Currently at <a
+			<p class="mt-4 font-light">Software Engineer, 22. Berlin-based.</p>
+			<p class="mt-4 font-light">
+				Currently working on Applied AI at <a
 					class="link"
 					href="https://tesla.com"
 					target="_blank">Tesla</a
-				>.
+				>, across data engineering, hardware projects, AI agents, and open-source
+				libraries.
 			</p>
-			<p class="mt-4">
+			<p class="mt-4 font-light">
 				I studied Computer Science and Engineering between <a
 					class="link"
 					target="_blank"
@@ -50,11 +51,11 @@ import Layout from "../layouts/Layout.astro";
 				developed a strong interest in clean architecture and building
 				software that&apos;s genuinely useful to people.
 			</p>
-			<p class="mt-4">
+			<p class="mt-4 font-light">
 				I&apos;ve been a musician, Ultimate Frisbee player, and event
 				organizer.
 			</p>
-			<p class="mt-4">
+			<p class="mt-4 font-light">
 				You can find me on <a
 					class="link"
 					target="_blank"
@@ -73,9 +74,28 @@ import Layout from "../layouts/Layout.astro";
 			</p>
 		</section>
 		<section class="py-6">
-			<h2 class="text-2xl font-bold">Projects</h2>
-			<ul class="mt-4 flex list-inside list-disc flex-col gap-y-4">
-				<li>
+			<h2 class="text-xs font-medium tracking-widest uppercase opacity-50">Projects</h2>
+			<ul class="mt-4 flex flex-col gap-y-5">
+				<li class="font-light">
+					<a
+						class="link"
+						target="_blank"
+						href="https://github.com/vistal-dev/vistal"
+						>Vistal</a
+					>: Authorization layer for AI agents. Row-level security,
+					field-level permissions, and per-user access control so LLMs
+					can query databases without prompt-injection vulnerabilities.
+				</li>
+				<li class="font-light">
+					<a
+						class="link"
+						target="_blank"
+						href="https://github.com/nicolodaddabbo/thing"
+						>Nudge</a
+					>: TypeScript library with a generative CLI for building
+					prompts in code.
+				</li>
+				<li class="font-light">
 					<a
 						class="link"
 						target="_blank"
@@ -83,22 +103,20 @@ import Layout from "../layouts/Layout.astro";
 						>Paganello Schedule</a
 					>: Web app for displaying real-time match schedules for
 					Paganello, the world&apos;s largest Beach Ultimate Frisbee
-					tournament—seeing over 3,000 players and attendees rely on
-					it was a pivotal moment that deepened my passion for
-					building software that solves real-world problems.
+					tournament. Over 3,000 players and attendees rely on it, which
+					deepened my interest in building software that solves real problems.
 				</li>
-				<li>
+				<li class="font-light">
 					<a
 						class="link"
 						target="_blank"
 						href="https://github.com/nicolodaddabbo/hykee-ai"
 						>HYKEE AI</a
-					>: A virtual assistant that helps financial analysts
-					interpret Italian company balance sheets, featuring
-					fine-tuned language models and in-context learning
-					strategies.
+					>: A virtual assistant that helps financial analysts interpret
+					Italian company balance sheets, featuring fine-tuned language
+					models and in-context learning strategies.
 				</li>
-				<li>
+				<li class="font-light">
 					<a
 						class="link"
 						target="_blank"
@@ -107,7 +125,7 @@ import Layout from "../layouts/Layout.astro";
 					> (in Italian): Conducted as part of the HYKEE AI project, it
 					includes a comparative study between open-source and proprietary
 					LLMs, evaluated through expert-labeled data and a fine-tuned
-					“LLM-as-a-Judge” model.
+					"LLM-as-a-Judge" model.
 				</li>
 			</ul>
 		</section>
